@@ -1,3 +1,20 @@
+/**
+ * @file ce_02_array_sum_pointers.c
+ * @brief Practice logic exercises in C focusing on pointers, double pointers,
+ * and pointer arithmetic
+ * @author Fabiano Del Villar
+ * @date 2026-09-28
+ *
+ * FUNCTIONALITY:
+ * This program creates an array of 10 integers and computes the sum of its
+ * elements inside the `sum_array()` function. Iteration over the elements
+ * is performed using pointer arithmetic (*(array + index)). The final sum
+ * is returned and printed to standard output.
+ *
+ * EXPECTED OUTPUT:
+ * The sum of the array elements is: 55
+ */
+
 #include <stdio.h>
 
 #define N 10
